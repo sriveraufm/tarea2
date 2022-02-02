@@ -119,6 +119,7 @@ def eliminar():
         if(creditos[i] == mod):
             registroEliminar += 1
             creditos = creditos[0:i] + creditos[i + 1:] 
+            break
             # return(creditos)
     print('Los nuevos valores son: \b')
     prnt()
